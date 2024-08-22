@@ -1,0 +1,89 @@
+h4
+{
+    padding-bottom: 30px;
+}
+h4 strong{
+    color: #000;
+    text-decoration: underline;
+}
+.header,footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.mcu /*Logo marvel*/
+{
+    text-shadow: none;
+    font-size: 60px;
+    color: white;
+    background-color: red;
+}
+/*partieimportante de mon pied de page */
+.UDM
+{
+    color: white;
+}
+#Yaba-In /*partie de yaba- */
+{
+     color: #FFCC66;
+     font-size: 1.3em;
+}
+.Yaba-In /*partie de In */
+{
+    color: blue;
+    font-size: 1.3em;
+}
+/* application sur toutes les balises du body */
+* 
+{
+    color:white;
+    font-family: sans-serif;
+    margin: 0%;
+}
+h3
+{
+    color: yellow;
+    text-shadow: 2px 2px 0px #000;
+    font-size: 30px;
+}
+/* Modification apporter au lien */
+a:hover /*Prend la couleur verte une fois le cuiseur sur le lien */
+{
+    zoom: 1.3;
+    color: yellow;
+}
+.lien-mcu{
+    border: none;
+}
+a 
+{
+    border-bottom: 1.5px double;
+    border-right: 1.5px double;
+    border-top: 1.5px double;
+    border-left: 1.5px double;
+    text-decoration: none;
+    color: blue;
+}
+main
+{
+    color:black;
+    text-align: center;
+}
+
+footer,header{
+    background-color: green;
+}
+.pied-de-page{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width: 900px) {
+    .style{
+        flex-direction: column;
+    }
+    .conteneur{
+        color: yellow;
+    }
+}

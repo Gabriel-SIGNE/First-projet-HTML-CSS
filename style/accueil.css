@@ -1,0 +1,52 @@
+h1
+{
+    text-shadow: 2px 2px 0px #000;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+} 
+.main-header
+{
+    margin: auto;
+    font-size: 1em;
+    padding: 300px;
+    background: url("../images/2117.jpg") no-repeat;
+    background-size: cover;
+}
+
+body{
+    background-color: black;
+}
+.main-lien
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+}
+body{
+    background-color: black;
+}
+
+.survol{
+    position: relative;
+}
+
+.float{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+.survol:hover .float{
+    display: flex;
+}
